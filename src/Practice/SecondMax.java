@@ -32,6 +32,9 @@ public class SecondMax {
 	for (Integer integer : list) {
 		System.out.println(integer);
 	}
+	
+	String test ="sabari";
+	test.chars().mapToObj(n-> (char)n).sorted().forEach(System.out::print);
 	}
 
 }
