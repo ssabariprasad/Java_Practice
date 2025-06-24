@@ -33,8 +33,16 @@ public class SecondMax {
 		System.out.println(integer);
 	}
 	
+	
+	/* String sort program*/
 	String test ="sabari";
 	test.chars().mapToObj(n-> (char)n).sorted().forEach(System.out::print);
+	
+	/* Vowels count program*/
+	String a="sabari";
+	long g=a.chars().mapToObj(b-> (char)b).filter(c-> "aeiou".indexOf(c)!=-1).count();
+	System.out.println(g);
 	}
 
+	
 }
